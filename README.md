@@ -169,7 +169,7 @@ sprintC#/
 ├── scripts/
 │   ├── start-api.bat
 │   ├── run-api.bat
-│   └── start-server.ps1
+│   
 │
 └── AdvancedBusinessDevelopment.sln
 ```
@@ -184,7 +184,7 @@ sprintC#/
 
 1. **Clone ou abra o repositório**
    ```bash
-   cd sprintC
+   cd os_facil
    ```
 
 2. **Restaure os pacotes NuGet**
@@ -457,23 +457,15 @@ Content-Type: application/json
 PUT /api/ordensservico/{id}/fechar
 ```
 
-## Status de Compilação
 
-- ✅ Todos os 4 projetos compilam sem erros
-- ✅ 48 avisos de tipos anuláveis (aceitável)
-- ✅ Funcionalidades testadas e operacionais
-- ✅ API rodando em http://localhost:5192
-- ✅ Interface Web responsiva e funcional
-- ✅ CRUD completo para Clientes, Veículos e Ordens de Serviço
+## Melhorias Implementadas (Sprint 2)
 
-## Melhorias Implementadas (Sprint 2C)
-
-- ✅ Layout com Bootstrap 5.3 CDN
+- ✅ Layout com Bootstrap 5.3 
 - ✅ Paginação em todas as listagens
 - ✅ Busca e filtros funcionais
 - ✅ Formulários com validação
 - ✅ Formatação automática (CPF, Telefone)
-- ✅ Mensagens de sucesso/erro com TempData
+- ✅ Mensagens de sucesso/erro
 - ✅ Buttons "Novo", "Editar", "Detalhes"
 - ✅ Ação de fechamento de ordem de serviço
 - ✅ Resposta HATEOAS na API
